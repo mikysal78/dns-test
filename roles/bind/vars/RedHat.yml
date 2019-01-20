@@ -10,6 +10,8 @@ bind_service: named
 
 # Main config file
 bind_config: /etc/named.conf
+bind_config_options: /etc/named.conf.options
+bind_config_local: /etc/named.conf.local
 
 # Zone files included in the installation
 bind_default_zone_files:
